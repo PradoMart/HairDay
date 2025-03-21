@@ -2,7 +2,6 @@
   "name": "hairday",
   "description": "Web Application to book in barbershops",
   "author": "Leandro Prado",
-  "main": "index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
@@ -14,13 +13,16 @@
   },
   "keywords": [],
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/PradoMart/HairDay/issues"
   },
   "homepage": "https://github.com/PradoMart/HairDay#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.11.0",
     "html-webpack-plugin": "^5.6.0",
+    "json-server": "^1.0.0-beta.3",
+    "style-loader": "^3.3.4",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
